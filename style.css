@@ -1,6 +1,10 @@
-body{
+/*.body{
+font-family: Arial;
+width: 60em;
+margin: 0;
+padding: 3em;
 
-}
+}*/
 .container{
    min-height: 120px;
    width: 1250px;
@@ -934,6 +938,9 @@ left: 7%
 #vob1{
 	position: relative;
 	border-style: groove;
+	border-left-style:hidden;
+	border-right-style: hidden;
+	border-bottom-style: hidden; 
 	width: 1250px;
 	height: 120px;
 	top: 300px;
